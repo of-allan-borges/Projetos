@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/flexbox.css">
+    <title>MusicStart</title>
+    
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="cabecalho__container">
+
+            <h1 class="logo__item" href="#">
+                <img src="./img/cabecalho/Logo.jpg" alt="">
+            </h1>
+
+            <div class="cabecalho__pesquisar__item">
+                <form action="">
+                    <input type="search" placeholder="Pesquisar" id="pesquisar" class="pesquisar__input">
+                    <label for="pesquisar" class="pesquisar__label"><img src="./img/cabecalho/search2.png" alt="" class="imagem__pesquisar"></label>
+                </form>
+                <a href="#" class="cabecalho__audio"></a>
+            </div>
+
+            <div class="cabecalho__icones__item">
+                <a href="#" class="cabecalho__videos"><img src="./img/cabecalho/star.png" alt=""></a>
+                <a href="#" class="cabecalho__apps"><img src="./img/cabecalho/configuration.png" alt=""></a>
+                <a href="#" class="cabecalho__notificacoes"><img src="./img/cabecalho/notifications1.png" alt=""></a>
+                <a href="#" class="cabecalho__avatar"><img src="./img/cabecalho/avatar1.png" alt=""></a>
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <aside class="menu__container">
+        <ul class="menu__lista">
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__inicio icone-item"></i>
+                    <span>Início</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__explorar icone-item"></i>
+                    <span>Explorar</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__shorts icone-item"></i>
+                    <span>Shorts</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__inscricoes icone-item"></i>
+                    <span>Inscrições</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__biblioteca icone-item"></i>
+                    <span>Biblioteca</span></a>
+            </li>
+        </ul>
+
+        <ul class="menu__lista">
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__historico icone-item"></i>
+                    <span>Histórico</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__relogio icone-item"></i>
+                    <span>Escutar mais tarde</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__like icone-item"></i>
+                    <span>Marcados com like</span></a>
+            </li>
+        </ul>
+
+        <ul class="menu__lista">
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__mostrar icone-item"></i>
+                    <span>Mostrar mais</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <img src="./img/menu/slipknot.jpg" alt="" class="avatar__menu">
+                    <p>Slipknot</p></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <img src="./img/menu/Djavan.jpeg" alt="" class="avatar__menu">
+                    <p>Djavan</p></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <img src="./img/menu/matue.webp" alt="" class="avatar__menu">
+                    <p>Matuê</p></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <img src="./img/menu/pericles.jpeg" alt="" class="avatar__menu">
+                    <p>Pericles</p></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <img src="./img/menu/russo.jpeg" alt="" class="avatar__menu">
+                    <p>Renato Russo</p></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <img src="./img/menu/linkinpark.jpeg" alt="" class="avatar__menu">
+                    <p>Linkin Park</p></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <img src="./img/menu/titas.jpg" alt="" class="avatar__menu">
+                    <p>Titãs</p></a>
+            </li>
+
+            <li>
+                <a class="menu__itens inscricoes" href="#">SEGUINDO</a>
+            </li>
+        </ul>
+
+        <ul class="menu__lista">
+            <li class="premium">
+                <a class="menu__itens" href="#">
+                    <img src="./img/cabecalho/Music.png" alt="" class="music__menu">
+                    <p>Music Premium</p></a>
+            </li>
+
+            <li class="clipes">
+                <a class="menu__itens" href="#">
+                    <img src="./img/menu/videos.png" alt="" class="clipes__menu">
+                    <span>Clipes</span></a>
+            </li>
+            <li class="gravacao">
+                <a class="menu__itens" href="#">
+                    <img src="./img/menu/filmes.png" alt="" class="gravacoes__menu">
+                    <p>Gravações</p></a>
+            </li>
+
+            <li class="menu__itens maispagina">
+                <a href="#">MAIS DA PÁGINA</a>
+            </li>
+        </ul>
+    </aside>
+
+
+
+    <section class="superior__secao__container">
+        <a class="superior__item" href="#">Indie</a>
+        <a class="superior__item" href="#">Brasil</a>
+        <a class="superior__item" href="#">Sertanejo</a>
+        <a class="superior__item" href="#">Podcasts</a>
+        <a class="superior__item" href="#">Pop</a>
+        <a class="superior__item" href="#">Infantil</a>
+        <a class="superior__item" href="#">Hip-Hop</a>
+        <a class="superior__item" href="#">MPB</a>
+        <a class="superior__item" href="#">Samba & Pagode</a>
+        <a class="superior__item" href="#">Radio</a>
+        <a class="superior__item" href="#">Rock</a>
+    </section>
+
+
+
+<ul class="videos__container">
+        <li class="videos__item">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4hCrrd4eWFmPdycdcky1Wf?utm_source=generator" width="100%" height="60%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+            <div class="descricao-video">
+                <h3>Engenheiros do Hawaii - Pra ser sincero</h3>
+                
+                <p>Fonte: RCA Records Label.</p>
+            </div>
+        </li>
+
+        <li class="videos__item">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5FVd6KXrgO9B3JPmC8OPst?utm_source=generator" width="100%" height="60%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+            <div class="descricao-video">
+                <h3>Arctic Monkeys - Do I Wanna Know?</h3>
+                
+                <p>Fonte: Domino Recording Co.</p>
+            </div>
+        </li>
+
+        <li class="videos__item">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6eZJaGs515XMKTMwuTG2mS?utm_source=generator" width="100%" height="60%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+            <div class="descricao-video">
+                <h3>Post Malone - Big Lie</h3>
+                
+                <p>Fonte: Universal Music Group, Sony Music Publishing.</p>
+            </div>
+        </li>
+
+        <li class="videos__item">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/56fiFTRrSiHHH3gBeaTg2P?utm_source=generator" width="100%" height="60%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+            <div class="descricao-video">
+                <h3>Slipknot - Nero Forte.</h3>
+                <p>Fonte: Roadrunner Records.</p>
+            </div>
+        </li>
+
+        <li class="videos__item">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0pjCkLjbgSLn5c0Ilwuv8z?utm_source=generator" width="100%" height="60%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+            <div class="descricao-video">
+                <h3>Red Hot Chili Peppers - The Longest Wave</h3>
+                
+                <p>Fonte: Warner Records.</p>
+            </div>
+        </li>
+
+        <li class="videos__item">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2bDc2CMq7MMAURwnMJverx?utm_source=generator" width="100%" height="60%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+            <div class="descricao-video">
+                <h3>Seu Jorge - Felicidade</h3>
+                <p>Fonte: Seu Jorge</p>
+            </div>
+        </li>
+
+        <li class="videos__item">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4FSYU7BYod4SQgscmcTnJy?utm_source=generator" width="100%" height="60%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+            <div class="descricao-video">
+                <h3>Sidoka - Drink</h3>
+                <p>Fonte: Infame Company</p>
+            </div>
+        </li>
+
+        <li class="videos__item">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/463EaoLaoLfyH6pplOnjLB?utm_source=generator" width="100%" height="60%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+            <div class="descricao-video">
+                <h3>Marisa Monte - Não Vá Embora</h3>
+                <p>Fonte: EMI Brazil</p>
+            </div>
+        </li>
+
+        <li class="videos__item">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1680lmjl6VXPlWoiw7LqA4?utm_source=generator" width="100%" height="60%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+            <div class="descricao-video">
+                <h3>Sertanejo 2023</h3>
+                <p>Playlist</p>
+            </div>
+        </li>
+
+        <li class="videos__item">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2qx55GWmltAZNh4B4I1DGq?utm_source=generator" width="100%" height="60%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+            <div class="descricao-video">
+                <h3>Pagodes Mais Tocados 2023</h3>
+                <p>Playlist</p>
+            </div>
+        </li>
+
+        <li class="videos__item">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWVLcZxJO5zyf?utm_source=generator" width="100%" height="60%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+            <div class="descricao-video">
+                <h3>Pop Brasil</h3>
+                <p>Playlist</p>
+            </div>
+        </li>
+
+        <li class="videos__item">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWWr5uieiPUVM?utm_source=generator" width="100%" height="60%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+            <div class="descricao-video">
+                <h3>Trapperz Brasil</h3>
+                <p>Playlist</p>
+            </div>
+        </li>
+    </ul>
+
+ 
+    <footer class="rodape__container">
+        <section>
+            <h2 class="rodape__titulo">Rock</h2>
+            <p class="rodape__texto">Rock Leve</p>
+            <p>Rock 80</p>
+            <p>Metal</p>
+            <p>Emo</p>
+            <p>Rock Retrô</p>
+            <p>Rock Classics</p>
+        </section>
+
+        <section>
+            <h2 class="rodape__titulo">Samba & Pagode</h2>
+            <p class="rodape__texto">Pagodeira</p>
+            <p>Coleção Pagode</p>
+            <p>Pagodin</p>
+            <p>Samba de Raiz</p>
+            <p>Samba e água fresca</p>
+            <p>Coleção Samba</p>
+        </section>
+
+        <section>
+            <h2 class="rodape__titulo">Hip-Hop & Rap</h2>
+            <p class="rodape__texto">Hungria Hip Hop</p>
+            <p>Eminem</p>
+            <p>Trap</p>
+            <p>Hip-Hop '90s</p>
+            <p>Drake</p>
+            <p>Speed BR</p>
+        </section>
+
+        <section>
+            <h2 class="rodape__titulo">MPB</h2>
+            <p class="rodape__texto">Acústico MPB</p>
+            <p>Manhã Relax</p>
+            <p>Coleção MPB</p>
+            <p>O Melhor do MPB</p>
+            <p>Pôr do sol na areia</p>
+            <p>Bossa Nova</p>
+        </section>
+
+        <section>
+            <h2 class="rodape__titulo">Radio</h2>
+            <p class="rodape__texto">Zimbra</p>
+            <p>Post Malone</p>
+            <p>Engenheiros do Hawai</p>
+            <p>Mamonas Assassinas</p>
+            <p>Legião Urbana</p>
+            <p>Capital Inicial</p>
+        </section>
+
+        <section>
+            <h2 class="rodape__titulo">Indie</h2>
+            <p class="rodape__texto">Indie Brasil</p>
+            <p>Alternative 10s</p>
+            <p>Arctic Monkeys</p>
+            <p>Coleção Indie</p>
+            <p>Early Alternative</p>
+            <p>Essential Indie</p>
+        </section>
+
+        <section>
+            <h2 class="rodape__titulo">Brasil</h2>
+            <p class="rodape__texto">Top Brasil</p>
+            <p>Funk Hits</p>
+            <p>Forró Raiz</p>
+            <p>Paredão</p>
+            <p>Pisadinha e Piseiro</p>
+            <p>Axé</p>
+        </section>
+    </footer>
+
+</body>
+
+</html>
