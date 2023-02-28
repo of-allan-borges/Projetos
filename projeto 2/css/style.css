@@ -12,7 +12,7 @@
     text-decoration: none;
     box-sizing: border-box;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 12px;
     width: 150px;
     height: 30px;
     max-width: 178px;
@@ -70,19 +70,19 @@
     border: 2px solid #000000;
     border-radius: 10px;
     justify-content: center;
-    height: 380px;
+    height: 350px;
     background-color: white;
     padding-top: 30px;
 }
 
 .servicos__informacao h1 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin-top: 15px;
 }
 
 .servicos__informacao p {
     margin: 20px auto;
-    font-size: 20px;
+    font-size: 1.2rem;
     color: #4b4b4b;
 }
 
@@ -95,7 +95,7 @@
 }
 
 .servicos__informacao:hover h1{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 .servicos__agendar {
@@ -129,12 +129,12 @@
 }
 
 .informacoes__container {
-    width: 400px;
+    width: auto;
     border: 2px solid #000000;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px auto;
+    margin: 5%;
     border-radius: 10px;
 }   
 
@@ -297,13 +297,31 @@
     color: rgb(255, 124, 146);
 }
 
-@media (min-width: 481px) {
+
+@media (min-width: 480px) {
     .servicos__informacao {
-        height: 450px;
+        height: 400px;
     }
+
+    .cabecalho__link {
+        font-size: 15px;
+    }
+
+    .servicos__informacao h1 {
+        font-size: 1.7rem;
+    }
+
+    .servicos__informacao p {
+        font-size:1.3rem;
+    }
+
+    .servicos__informacao:hover h1{
+        font-size: 1.8rem;
+    }
+
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
 
     .cabecalho__container {
         display: flex;
@@ -336,6 +354,12 @@
     .rodape__final {
         display: flex;
         gap: 30px;
+    }
+
+    .informacoes__container {
+        justify-content: space-evenly;
+        width: 60%;
+        margin: 5% auto;
     }
 }
 
