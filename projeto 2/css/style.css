@@ -1,0 +1,369 @@
+.cabecalho__container {
+    background-color: white;
+    height: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho__link {
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 150px;
+    height: 30px;
+    max-width: 178px;
+    padding: 6px 12px;
+    background-color: rgba(255, 192, 203, 0.712);
+    text-align: center;
+    color: white;
+    transition: 0.5s;
+}
+
+.cabecalho__link:hover {
+    background-color: rgb(255, 124, 146);
+}
+
+
+.imagem__studio {
+    width: 70%;
+}
+
+.div__container {
+    display: flex;
+    background-color: pink;
+    height: auto;
+    justify-content: center;
+}
+
+.titulo__servicos {
+    text-align: center;
+    font-size: 25px;
+    margin: 20px auto;
+}
+
+.servicos__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicos {
+    display: flex;
+    width: auto;
+    margin: auto auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+}
+
+.servicos__informacao {
+    width: 70%;
+    text-align: center;
+    flex-wrap: wrap;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    justify-content: center;
+    height: 380px;
+    background-color: white;
+    padding-top: 30px;
+}
+
+.servicos__informacao h1 {
+    font-size: 1.7rem;
+    margin-top: 15px;
+}
+
+.servicos__informacao p {
+    margin: 20px auto;
+    font-size: 20px;
+    color: #4b4b4b;
+}
+
+.servicos__informacao:hover {
+    border-color:#C78C19;
+}
+
+.servicos__informacao:hover {
+    border-color: rgb(255, 100, 126);
+}
+
+.servicos__informacao:hover h1{
+    font-size: 1.8rem;
+}
+
+.servicos__agendar {
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 6px solid transparent;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    width: 155px;
+    height: 30px;
+    background-color: rgba(255, 192, 203, 0.712);
+    text-align: center;
+    color: white;
+}
+
+.servicos__agendar:hover {
+    background-color: rgb(255, 124, 146);    
+}
+
+.servicos__imagem {
+    width: 70%;
+}
+
+.informacoes__imagem {
+    display: flex;
+    margin: 5px 10px;
+}
+
+.imagem__logo2 {
+    width: 150px;
+}
+
+.informacoes__container {
+    width: 400px;
+    border: 2px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    border-radius: 10px;
+}   
+
+.informacoes__principal {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    
+}
+
+.informacoes__principal a {
+    justify-self: flex-end;
+    align-self: flex-end;
+    text-decoration: none;
+    color: rgb(255, 124, 146);
+    font-size: 15px;
+}
+
+
+.informacoes__principal h1 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #666666;
+    margin-top: 10px;
+}
+
+.equipe__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.equipe__titulo {
+    margin: 30px 0px 15px 15px;
+    font-size: 20px;
+    color: rgb(59, 59, 59);
+}
+
+.equipe__informacao {
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    align-items: center;
+    overflow: scroll;
+    margin: 10px;
+}
+
+.equipe__imagem {
+    width: 80px;
+}
+
+
+.equipe__informacao__conteudo {
+    margin: 20px auto;
+    border: 4px solid rgba(255, 192, 203, 0.712);
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80px;
+    align-items: center;
+}
+
+.equipe__informacao__conteudo p {
+    color: #666666;
+}
+
+.descricao__informacao {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 15px 15px;
+    gap: 25px;
+}
+
+.descricao__informacao__titulo {
+    margin-top: 20px;   
+}
+
+.descricao__informacao h1 {
+    font-weight: bold;
+}
+
+.descricao__informacao__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.informacoes__contato__container {
+    margin: 50px 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid #d3d3d3;
+    border-radius: 10px;
+    color: #333;
+}
+
+.informacoes__contato__conteudo {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    color: #888888;
+}
+
+.informacoes__contato__imagem {
+    width: 30px;
+}
+
+.rodape__container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    padding-left: 20px;
+}
+
+.rodape__container h1 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.rodape__servicos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px 0px;
+}
+
+.rodape__servicos__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #888888;
+}
+
+.rodape__servicos__texto {
+    cursor: pointer;
+}
+
+.rodape__servicos__texto:hover {
+    color: rgb(255, 124, 146);
+}
+
+.rodape__final {
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #333333;
+}
+
+.rodape__texto {
+    cursor: pointer;
+}
+
+.rodape__texto:hover{
+    color: rgb(255, 124, 146);
+}
+
+@media (min-width: 481px) {
+    .servicos__informacao {
+        height: 450px;
+    }
+}
+
+@media (min-width: 769px) {
+
+    .cabecalho__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .cabecalho__link {
+        width: 300px;
+        border-radius: 5px;
+    }
+
+    .descricao__informacao {
+        width: 70%;
+    }
+
+    .rodape__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0px 30px;
+    }
+
+    .rodape__servicos__conteudo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .rodape__final {
+        display: flex;
+        gap: 30px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+
+    .servicos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        width: 1000px;
+    }
+
+    .servicos__informacao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .servicos__informacao h1{
+        padding-bottom: 30px;
+    }
+
+    .servicos__informacao:active{
+    border-color: rgb(255, 25, 63);;
+    }
+
+}
